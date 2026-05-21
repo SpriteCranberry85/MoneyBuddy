@@ -1,4 +1,4 @@
-This program offers five choices to the user with the goal of giving them a more clear view of their finances. 
+This python program, ran in a command line interface, offers five choices to the user with the goal of giving them a more clear view of their finances. 
 The first choice calculates yearly income, the second choice calculates yearly expenses, the third choice 
 calculates how long in weeks it will take to make a certain quantity of money based on user income, the fourth choice
 gathers monthly income and expenes and generates an HTML file inside the program directory allowing the user to choose the 
