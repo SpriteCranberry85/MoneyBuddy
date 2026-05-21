@@ -1,0 +1,7 @@
+This program offers five choices to the user with the goal of giving them a more clear view of their finances. 
+The first choice calculates yearly income, the second choice calculates yearly expenses, the third choice 
+calculates how long in weeks it will take to make a certain quantity of money based on user income, the fourth choice
+gathers monthly income and expenes and generates an HTML file inside the program directory allowing the user to choose the 
+name of the file and when ran will generate a table (link to a free HTML editor-> https://www.w3schools.com/html/html_editor.asp) 
+of the monthly income and expenses of the user and the last choice ends the program. Note that the exact numerical inputs as specified
+(1, 2, 3, 4, 5) are required to select an option. All other numerical values can be entered as whole numbers or decimals. Enjoy!
