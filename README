@@ -1,7 +1,48 @@
-This python program, ran in a command line interface, offers five choices to the user with the goal of giving them a more clear view of their finances. 
-The first choice calculates yearly income, the second choice calculates yearly expenses, the third choice 
-calculates how long in weeks it will take to make a certain quantity of money based on user income, the fourth choice
-gathers monthly income and expenes and generates an HTML file inside the program directory allowing the user to choose the 
-name of the file and when ran will generate a table (link to a free HTML editor-> https://www.w3schools.com/html/html_editor.asp) 
-of the monthly income and expenses of the user and the last choice ends the program. Note that the exact numerical inputs as specified
-(1, 2, 3, 4, 5) are required to select an option. All other numerical values can be entered as whole numbers or decimals. Enjoy!
+**ABOUT
+
+This python program, ran in a command line interface, offers five choices to the user with the goal of giving them 
+a more clear view of their finances. 
+
+**HOW TO USE
+
+The user will be prompted to enter a number and hit enter to choose their desired function.
+NOTE: Only the exact numbers can be entered, either a 1, 2, 3, 4, or 5. The program currently has no input validation. 
+The user will then respond to the prompts, using whole numbers or decimal numbers, but no special symbols (including $) except '.'
+The program will then generate the desired output based on the choice. 
+
+Choice 1: 
+The first choice calculates yearly income by prompting the user to enter a "1" to calculate based off of hourly wage 
+or a "2" to calculate based off of weekly income. If the user enters "1", it will prompt them for their hourly wage and 
+average hours worked each week. If the user enters "2", it will ask for their weekly income. 
+(Note all values can be entered as a whole number or decimal, but do not use any symbols other than '.') 
+The program will then print their estimated yearly income. 
+
+Choice 2: 
+The second choice calculates yearly expenses by prompting the user to enter their estimated monthly expense at each 
+expense category. These values can be entered as whole numbers or decimal numbers, and the program will print their estimated 
+yearly expenses. 
+
+Choice 3: 
+The third choice calculates how long in weeks it will take to make a certain quantity of money by prompting the user to enter 
+a "1" to calculate based off of hourly wage or a "2" to calculate based off of weekly income. If the user enters "1", it will 
+prompt them for their hourly wage and average hours worked each week. If the user enters "2", it will ask for their weekly income. 
+(Note all values can be entered as a whole number or decimal, but do not use any symbols other than '.') 
+The program will then print how long in weeks it will take to make the desired quanitity of money.
+
+Choice 4: 
+The fourth choice creates a table depicting income and expenses by prompting the user for the name of the file it will create containing
+HTML code that will create a table showing their income and expenses based on their answers to the prompts when ran in an HTML editor. 
+The file will be made in the same directory that the program is located in. To view the table, copy and paste all the contents of the file 
+into a HTML editor and run it. 
+(link to a free HTML editor-> https://www.w3schools.com/html/html_editor.asp) 
+
+Choice 5: 
+The fifth choice ends the program. 
+
+**INSTALL
+To run the program, the user will need to put the source code file into a python compiler and run it. 
+The below webiste contains instructions on how one may do this:
+https://www.fabriziomusacchio.com/blog/2022-10-31-GitHub/
+
+Note that the program's results are only as accurate as your estimations.
+Enjoy!
